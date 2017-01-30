@@ -1,0 +1,36 @@
+<div class="container">
+		<div class="jumbotron">
+			<div id="title">
+				<h1 id="timetraveler">time<span id="traveler">traveler.</span></h1>
+				<div id="quote">
+				<h3>Begin Anywhere</h3>
+				<hr>
+				<h4>Rewind inside old memories 
+				<br>Fast forward to new dreams 
+				<br>Pause time and capture the moment </h4>
+				</div>
+			</div>	
+		</div>
+	</div>	
+	
+<div class="container">
+		<div class="row row-content" ng-controller="imgController as imgCtrl">
+		<!--<div class="deckgrid clearfix" deckgrid source="bricks" cardtemplate="deckgrid-card.html">
+		    <div class="a-card">
+		    	<h1>this is a card</h1>
+		    	<div class="thumbnail">
+		    		<img data-ng-src="{{card.src}}">
+		    	</div>
+		        
+		    </div>
+		</div>-->
+			<div masonry reload-on-show ng-show="imgLoaded" infinite-scroll = "loadPage()" masonry-options="{isFitWidth:true}" class="artists-container">
+			    <div class = "masonry-brick col-lg-4 col-md-4 col-sm-6 col-xs-12" ng-repeat = "image in visibleImages">
+					<div class="thumbnail">
+						<img ng-src={{image.src}} animate-visible="false" animate-speed="2s" alt="">
+					</div>			
+				</div>
+			</div>	
+		</div>
+		<p><button style="position: absolute;"id="load_images" class="btn btn-primary">Load Images</button></p>
+</div>

@@ -1,0 +1,16 @@
+{
+  "name": "timetraveler_v2",
+  "version": "1.0.0",
+  "description": "gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "adriana",
+  "license": "ISC",
+  "dependencies": {
+    "angulargrid": "^0.6.3",
+    "blazy": "^1.8.2",
+    "ng-infinite-scroll": "^1.3.0"
+  }
+}
