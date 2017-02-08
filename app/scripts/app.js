@@ -2,7 +2,7 @@
 
 var app = angular.module('timetravelerApp', ['ngRoute', 'wu.masonry', 'infinite-scroll']);
 //var appMasonry = angular.module('masonryApp', ['ngMasonry']);
-angular.module('infinite-scroll').value('THROTTLE_MILLISECONDS', 100);
+angular.module('infinite-scroll').value('THROTTLE_MILLISECONDS', 1000);
 
 //ROUTE
 app.config(function($routeProvider){
@@ -73,7 +73,7 @@ app.controller('contactController', function($scope){
 });
 
 app.controller('imgController', function($scope, imgService) {
-		$scope.IMAGES_PER_PAGE = 10;
+		$scope.IMAGES_PER_PAGE = 50;
 		$scope.visibleImages = [];
 		$scope.images = [];
 		$scope.imgLoaded = false;

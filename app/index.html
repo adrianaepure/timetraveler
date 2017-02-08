@@ -2,26 +2,27 @@
 <html lang="en" ng-app="timetravelerApp">
 
 <head>
-
+	<meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
 	<title>timetraveler.</title>
 	<!-- Stylesheets -->
 
-	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
 	<link rel="stylesheet" type="text/css" href="styles/main.css" >
-	<link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css" >
+	<link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css" >
 	
 	<!-- Bootstrap & JQuery Scripts -->
 	
-	<script src="../bower_components/jquery/dist/jquery.js"></script>
-	<script src="../bower_components/jquery-bridget/jquery-bridget.js"></script>
-	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="../bower_components/bootstrap/js/bootstrap.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/jquery-bridget/jquery-bridget.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/js/bootstrap.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
 
 </head>
 <body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-		<div class="container">
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container-fluid">
 			<div class="navbar-header">
 				<a class="navbar-brand" href="#/" id="timetraveler">time<span id="traveler">traveler.</span></a>
 				 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -35,16 +36,8 @@
 				<ul class="nav navbar-nav navbar-right">
 			        <li><a href="#/">Home</a></li>
 			        <li><a href="#/about">About</a></li>
-			        <li class="dropdown">
-				          <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Portfolio <span class="caret"></span></a>
-				        	  <ul class="dropdown-menu">
-					            <li><a href="#/landscape">Landscape</a></li>
-					            <li><a href="#/portrait">Portrait</a></li>
-					            <li><a href="#/still">Still Life</a></li>
-					            <li role="separator" class="divider"></li>
-					            <li><a href="#/portfolio"><a href="#/portfolio">Portfolio</a></li>
-					        </ul></li>
-			       	 <li><a href="#/contact">Contact</a></li>
+			        <li><a href="#/portfolio">Portfolio</a></li>
+			       	<li><a href="#/contact">Contact</a></li>
       			</ul>
 			</div>
 			
@@ -55,24 +48,24 @@
     <div ng-view></div>
 	
 <!-- Angular Masonry Dependencies -->
-<script src="../bower_components/fizzy-ui-utils/utils.js"></script>
-  	<script src="../bower_components/get-style/get-style-property.js"></script>
-  	<script src="../bower_components/get-size/get-size.js"></script>
-  	<script src="../bower_components/ev-emitter/ev-emitter.js"></script>
-  	<script src="../bower_components/eventie/eventie.js"></script>
-  	<script src="../bower_components/outlayer/doc-ready.js"></script>
-  	<script src="../bower_components/desandro-matches-selector/matches-selector.js"></script>
-  	<script src="../bower_components/outlayer/item.js"></script>
-  	<script src="../bower_components/outlayer/outlayer.js"></script>
-  	<script src="../bower_components/masonry/dist/masonry.pkgd.js"></script>
-	<script src="../bower_components/masonry/masonry.js"></script>
-	<script src="../bower_components/imagesloaded/imagesloaded.pkgd.js"></script>
-	<script src="../bower_components/imagesloaded/imagesloaded.js"></script>
-	<script src="../bower_components/angular/angular.min.js"></script>
-    <script src="../bower_components/angular/angular-route.js"></script>
-    <script src="../bower_components/ng-infinite-scroll/build/ng-infinite-scroll.js"></script>
-    <script src="../bower_components/angular-masonry-directive/src/angular-masonry-directive.js"></script>
-    <script type="text/javascript" src="../bower_components/angular-masonry/angular-masonry.js"></script>
+<script src="bower_components/fizzy-ui-utils/utils.js"></script>
+  	<script src="bower_components/get-style/get-style-property.js"></script>
+  	<script src="bower_components/get-size/get-size.js"></script>
+  	<script src="bower_components/ev-emitter/ev-emitter.js"></script>
+  	<script src="bower_components/eventie/eventie.js"></script>
+  	<script src="bower_components/outlayer/doc-ready.js"></script>
+  	<script src="bower_components/desandro-matches-selector/matches-selector.js"></script>
+  	<script src="bower_components/outlayer/item.js"></script>
+  	<script src="bower_components/outlayer/outlayer.js"></script>
+  	<script src="bower_components/masonry/dist/masonry.pkgd.js"></script>
+	<script src="bower_components/masonry/masonry.js"></script>
+	<script src="bower_components/imagesloaded/imagesloaded.pkgd.js"></script>
+	<script src="bower_components/imagesloaded/imagesloaded.js"></script>
+	<script src="bower_components/ng-infinite-scroll/build/ng-infinite-scroll.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular/angular-route.js"></script>
+    <script src="bower_components/angular-masonry-directive/src/angular-masonry-directive.js"></script>
+    <script type="text/javascript" src="bower_components/angular-masonry/angular-masonry.js"></script>
 
 
 <!-- App scripts -->
@@ -81,15 +74,11 @@
 <script src="scripts/sbLoad.js"></script>
 
 <script>
-	$(document).ready(function(){
-		$("#homeCarousel").carousel({interval: 1500});
-			$("#carousel-pause").click(function(){
-				$("#homeCarousel").carousel('pause');
-			});
-			$("#carousel-play").click(function(){
-				$("#homeCarousel").carousel('cycle');
-			});
-	});
+	$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
 </script>
 <script>
 	$(window).scroll(function() {

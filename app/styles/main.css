@@ -1,9 +1,14 @@
 html{
 	background-color: #171017;
+    background: url("../images/mainImg_large.jpg") no-repeat center center fixed;
+    background-size:cover;
 }
 body{
-	background: url("../images/mainImg_large.jpg") no-repeat center center fixed;
-	background-size:cover;
+	background: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
 	background-position:center;
 	-webkit-animation: fadein 1.5s;
 	font-family: "Avenir Next";
@@ -30,6 +35,15 @@ hr{
 img{
 	height: auto;
 	max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    color: #9d9d9d;
+}
+a:hover{
+    color: #E3DEDE;
 }
 #traveler{
 	color: #E3DEDE;
@@ -70,7 +84,7 @@ img{
 			     0px 13px 15px rgba(29,20,28,0.1);
 	font-size: 80%;
 	}
-.container{
+.container-fluid{
 	margin-left: 60px;
 	margin-right: 60px;
 	padding-left: 10px;
@@ -86,11 +100,12 @@ img{
 	background-image: linear-gradient(180deg, rgba(22,14,22,0.3), rgba(29,20,28,0));
   	text-shadow: none;
 }
-.navbar-fixed-top { 
+
+.navbar-static-top { 
 	background-color: rgba(22,14,22,0.0);
 	transition: background-color 1s ease 0s;
 }
-.navbar-fixed-top.opaque { 
+.navbar-static-top.opaque { 
 	background-color: rgba(22,14,22,0.9);
 	transition: background-color 1s ease 0s;
 }
@@ -127,39 +142,7 @@ img{
     text-decoration: none;
     background-image: none;
 }
-.dropdown.active.open>li.active {
-	color: #E7B854;
-    text-decoration: none;
-    background-image: none;
-    background-color: rgba(22,14,22,0.6);
-}
-.navbar-nav>li>.dropdown-menu {
-    margin-top: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-	color:#E3DEDE;
-	background-color: rgba(22,14,22,0.9);
-}
-.dropdown-menu>li>a{
-    display: block;
-    padding: 3px 20px;
-    clear: both;
-    font-weight: 400;
-    line-height: 1.42857143;
-    color: #E3DEDE;
-    white-space: nowrap;
-}
-.dropdown-menu>li>a:focus, 
-.dropdown-menu>li>a:hover {
-    color: #E7B854;
-    text-decoration: none;
-    background-color: rgba(22,14,22,0.6);
-    }
-.dropdown-menu>.active>a,
-.dropdown-menu>.active>a:focus, 
-.dropdown-menu>.active>a:hover{
-	background-color: rgba(22,14,22,0.6);
-}     
+   
 .navbar-inverse .navbar-toggle:focus,
 .navbar-inverse .navbar-toggle:hover {
      background-color: transparent;
@@ -186,14 +169,43 @@ img{
 .aboutContent{
 	background-color: rgba(0,0,0,0.3);
 }
-.carousel{
-	margin-top: 30px;
-	background-color: rgba(22,14,22,0.6);
-	position: relative;
+.media, .gallery{
+    background-color: rgba(0,0,0,0.3);
+    overflow: hidden;
+    padding-left: 1%;
+    padding-top: 1%;
 }
-.carousel .item{
-	height: 300px;
-
+img.media-object{
+    width: 100%;
+    padding-left: 1%;
+    padding-top: 5%;
+}
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left:0 !important;
+    padding: 0;
+}
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:25px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
 }
 .img-responsive{
 	position: absolute;

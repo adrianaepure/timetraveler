@@ -1,64 +1,145 @@
 {
 	"images": [
 		{
-			"src" : "images/portfolio/l_1 copy.jpg"
+			"src" : "images/portfolio/p1.jpg"
 		},
 		{
-			"src" : "images/portfolio/l_2 copy.jpg"
+			"src" : "images/portfolio/p2.jpg"
+		},
+        {
+			"src" : "images/portfolio/p3.jpg"
 		},
 		{
-			"src" : "images/portfolio/l_3 copy.jpg"
+			"src" : "images/portfolio/p4.jpg"
 		},
 		{
-			"src" : "images/portfolio/l_4 copy.jpg"
+			"src" : "images/portfolio/p5.jpg"
 		},
 		{
-			"src" : "images/portfolio/l_5 copy.jpg"
+			"src" : "images/portfolio/p6.jpg"
+		},
+        {
+			"src" : "images/portfolio/p7.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_1 copy.jpg"
+			"src" : "images/portfolio/p8.jpg"
+		},
+        {
+			"src" : "images/portfolio/p9.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_2 copy.jpg"
+			"src" : "images/portfolio/p10.jpg"
+		},
+        {
+			"src" : "images/portfolio/p11.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_3 copy.jpg"
+			"src" : "images/portfolio/p12.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_4 copy.jpg"
+			"src" : "images/portfolio/p13.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_5 copy.jpg"
+			"src" : "images/portfolio/p14.jpg"
+		},
+        {
+			"src" : "images/portfolio/p15.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_6 copy.jpg"
+			"src" : "images/portfolio/p16.jpg"
+		},
+        {
+			"src" : "images/portfolio/p18.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_7 copy.jpg"
+			"src" : "images/portfolio/p19.jpg"
+		},
+        {
+			"src" : "images/portfolio/p20.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_8 copy.jpg"
+			"src" : "images/portfolio/p21.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_9 copy.jpg"
+			"src" : "images/portfolio/p22.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_11 copy.jpg"
+			"src" : "images/portfolio/p23.jpg"
+		},
+        {
+			"src" : "images/portfolio/p24.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_12 copy.jpg"
+			"src" : "images/portfolio/p25.jpg"
+		},
+        {
+			"src" : "images/portfolio/p26.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_13 copy.jpg"
+			"src" : "images/portfolio/p27.jpg"
+		},
+        {
+			"src" : "images/portfolio/p28.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_14 copy.jpg"
+			"src" : "images/portfolio/p29.jpg"
+		},
+        {
+			"src" : "images/portfolio/p30.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_15 copy.jpg"
+			"src" : "images/portfolio/p31.jpg"
+		},
+        {
+			"src" : "images/portfolio/p32.jpg"
 		},
 		{
-			"src" : "images/portfolio/p_16 copy.jpg"
+			"src" : "images/portfolio/p33.jpg"
+		},
+		{
+			"src" : "images/portfolio/p34.jpg"
+		},
+		{
+			"src" : "images/portfolio/p35.jpg"
+		},
+        {
+			"src" : "images/portfolio/p36.jpg"
+		},
+		{
+			"src" : "images/portfolio/p37.jpg"
+		},
+            {
+			"src" : "images/portfolio/p38.jpg"
+		},
+		{
+			"src" : "images/portfolio/p39.jpg"
+		},
+        {
+			"src" : "images/portfolio/p40.jpg"
+		},
+		{
+			"src" : "images/portfolio/p41.jpg"
+		},
+        {
+			"src" : "images/portfolio/p42.jpg"
+		},
+		{
+			"src" : "images/portfolio/p43.jpg"
+		},
+		{
+			"src" : "images/portfolio/p44.jpg"
+		},
+		{
+			"src" : "images/portfolio/p45.jpg"
+		},
+        {
+			"src" : "images/portfolio/p46.jpg"
+		},
+		{
+			"src" : "images/portfolio/p47.jpg"
+        },
+        {
+			"src" : "images/portfolio/p48.jpg"
 		}
 	]
 }
