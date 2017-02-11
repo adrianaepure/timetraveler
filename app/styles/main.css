@@ -1,22 +1,38 @@
+
 html{
 	background-color: #171017;
-    background: url("../images/mainImg_large.jpg") no-repeat center center fixed;
-    background-size:cover;
+    
 }
 body{
-	background: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size:cover;
-	background-position:center;
-	-webkit-animation: fadein 1.5s;
-	font-family: "Avenir Next";
+    background-color: #171017;
+	font-family: "Avenir Next", "Scout", arial, sans-serif;
 	color: #E7B854;
 	font-weight: 400;
 	text-shadow: 0px 4px 3px rgba(171,110,41,0.3),
 			     0px 8px 13px rgba(29,20,28,0.4),
 			     0px 18px 23px rgba(29,20,28,0.1);	
+}
+.wrapper{
+    background: url("../images/mainImg_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;       
+    padding:0px;
+    margin:0px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    z-index:-1;
+    height: 100%;
+    width:100%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zoom: none;
+    -webkit-overflow-scrolling: touch;
 }
 h1{
 	font-size: 4em;
@@ -66,15 +82,15 @@ a:hover{
 	font-weight: 400px;
 }
 .titleMainPage{
-	margin-top: 200px;
-	margin-bottom: 200px;
+	margin-top: 10%;
+	
 }
 #title{
 	text-align: center;
 	color: #E7B854;
 	font-weight: 600;
 	font-size: 90%;
-	margin-top:10px;
+	margin-top:1%;
 }
 
 #quote{
@@ -85,10 +101,10 @@ a:hover{
 	font-size: 80%;
 	}
 .container-fluid{
-	margin-left: 60px;
-	margin-right: 60px;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-left: 1%;
+	padding-right: 1%;
 }
 .navbar-brand{
 	padding-left: 35px;
@@ -178,7 +194,7 @@ a:hover{
 img.media-object{
     width: 100%;
     padding-left: 1%;
-    padding-top: 5%;
+    padding: 5%;
 }
 ul.social-network {
     list-style: none;
@@ -244,10 +260,11 @@ ul.social-network li {
     
  }
  .masonry-brick{
+    margin: auto;
  	position: absolute;
  	padding: 0.1%;
  	border:none;
- 	width: 285px;
+ 	width: 300px;
  	display: none;
  }
 img {
@@ -405,6 +422,7 @@ img {
 .artists-container {
     width: 100%;
     min-height: 1000px;
+    margin: auto;
 }
 
 .artist-wrapper {
